@@ -1,0 +1,26 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-nodemon": "^2.2.1",
+    "mongoose": "^5.2.5",
+    "npm": "^6.2.0",
+    "should": "^13.2.2",
+    "sinon": "^6.1.4"
+  },
+  "devDependencies": {
+    "gulp-env": "^0.4.0",
+    "supertest": "^3.1.0"
+  }
+}
