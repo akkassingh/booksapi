@@ -5,9 +5,10 @@ var express = require('express'),
 var db;
 if(process.env.ENV == 'Test'){
 
-	db = mongoose.connect('mongodb://localhost/bookAPI_test');
+	db = mongoose.connect('mongodb://akkas:Simar%40123@ds159344.mlab.com:59344/standupmeetingnotes');
+	//mongodb://localhost/bookAPI_test
 }else{
-	db = mongoose.connect('mongodb://localhost/bookAPI');
+	db = mongoose.connect('mongodb://akkas:Simar%40123@ds159344.mlab.com:59344/standupmeetingnotes');
 }
 
 var Book = require('./models/bookModel');
